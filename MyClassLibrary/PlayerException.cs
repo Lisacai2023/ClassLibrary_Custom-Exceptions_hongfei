@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyClassLibrary
 {
-    internal class PlayerException : Exception
+    public class PlayerException : Exception
     {
         public PlayerException() : base()
         {

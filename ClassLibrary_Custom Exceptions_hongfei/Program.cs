@@ -22,15 +22,15 @@ namespace ClassLibrary_Custom_Exceptions_hongfei
 
             try
             {
-                Player player = new Player("", "100000");
-                Console.WriteLine(player);
+                Player player = new Player();
+                player.Name = "Tina";
+                player.Number = "1000";
 
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.ToString());
             }
-
 
 
 

@@ -11,6 +11,10 @@ namespace MyClassLibrary
         string _name;
         string _number;
 
+        public Player()
+        {
+        }
+
         public Player(string name, string number)
         {
             _name=name;
@@ -53,6 +57,7 @@ namespace MyClassLibrary
             }
 
         }
+
 
         public override string ToString()
         {
